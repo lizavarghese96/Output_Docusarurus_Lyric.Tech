@@ -4,32 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
+    title: 'Feature Documentation',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Clear, user-focused documentation for the new <strong>Bar Chart</strong> feature,
+        including what it is, when to use it, how to configure it, and how to customize it
+        at a high level.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'UI Messaging',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Improved modal and screen copy for clearer user guidance, with a focus on
+        consistency, conciseness, and action-oriented messaging for real product workflows.
+      </>
+    ),
+  },
+  {
+    title: 'Docs-as-Code Workflow',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        A step-by-step documentation lifecycle for the <strong>Smart Filters</strong> feature,
+        showing how content moves from Jira and staging review to authoring, pull request,
+        validation, and production publishing.
       </>
     ),
   },
