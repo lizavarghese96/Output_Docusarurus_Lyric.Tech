@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Feature Documentation',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/file.svg').default,
     description: (
       <>
         Clear, user-focused documentation for the new <strong>Bar Chart</strong> feature,
@@ -16,7 +16,7 @@ const FeatureList = [
   },
   {
     title: 'UI Messaging',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/web-design.svg').default,
     description: (
       <>
         Improved modal and screen copy for clearer user guidance, with a focus on
@@ -26,7 +26,7 @@ const FeatureList = [
   },
   {
     title: 'Docs-as-Code Workflow',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/workflow.svg').default,
     description: (
       <>
         A step-by-step documentation lifecycle for the <strong>Smart Filters</strong> feature,
