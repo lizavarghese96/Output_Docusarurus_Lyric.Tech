@@ -5,6 +5,6 @@ title: Release Note
 
 # Release Note
 
-Bar Chart is now available in Apps Studio.
+## New chart type: Bar Chart
 
-Use Bar Chart to compare values visually and quickly spot differences across categories. You can add it alongside other chart types when building interactive, data-driven applications in Lyric Studio.
+Apps Studio now supports **Bar** charts, giving users a simple way to compare values across categories and surface differences faster. Whether you are reviewing regional performance or comparing key measures side by side, bar charts make your analysis easier to read and act on.

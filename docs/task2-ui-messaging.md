@@ -5,24 +5,44 @@ title: UI Messaging
 
 # UI Messaging Improvements
 
-## Modal message
+## 2.1 Modal Message
 
-### Current message
-Add the original wording.
+### Recommended update
 
-### Recommended message
-Add your improved wording.
+![alt text](../static/img/ModalMessage.png)
 
-### Why this is better
-Add 2-3 short points.
+**Title:** Delete Table
 
-## Azure Blob connection screen copy
+**Body:**  
+Are you sure you want to delete this table?
 
-### Current labels and helper text
-Summarize what exists now.
+**Warning message:**  
+This table may be used in one or more interfaces for pivot tables or charts. Deleting it could affect those interfaces.
+
+**Buttons:**  
+**Cancel** | **Delete Table**
+
+## 2.2 Azure Blob Connection Screen Copy
 
 ### Recommended copy
-Show improved labels/helper text.
 
-### Why this is better
-Add 2-3 short points.
+![alt text](../static/img/AzureBlob.png)
+
+**Source Name**  
+- Placeholder: Enter a source name  
+- Helper text: Enter a name to help you identify this connection.
+
+**Azure Blob Storage Account Key**  
+- Placeholder: Enter the storage account key  
+- Helper text: Enter the access key for the Azure Blob Storage account.
+
+**Azure Blob Storage Account Name**  
+- Placeholder: Enter the storage account name  
+- Helper text: Enter the name of the Azure Blob Storage account.
+
+**Azure Blob Storage Container Name**  
+- Placeholder: Enter the container name  
+- Helper text: Enter the name of the Azure Blob Storage container.
+
+**Streams to Sync**  
+- Action: Add
