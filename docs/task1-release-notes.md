@@ -7,4 +7,4 @@ title: Release Note
 
 ## New chart type: Bar Chart
 
-Apps Studio now supports **Bar** charts, giving users a simple way to compare values across categories and surface differences faster. Whether you are reviewing regional performance or comparing key measures side by side, bar charts make your analysis easier to read and act on.
+Apps Studio now supports **Bar** charts, giving users a simple way to compare values across categories. Whether you are reviewing regional performance or comparing key measures side by side, bar charts make data easier to review visually.
