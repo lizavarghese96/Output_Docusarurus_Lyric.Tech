@@ -34,7 +34,8 @@ This table may be used in one or more interfaces for pivot tables or charts. Del
 
 **Azure Blob Storage Account Key**  
 - Placeholder: Enter the storage account key  
-- Helper text: Enter the access key for the Azure Blob Storage account.
+- Helper text: Enter the access key for the Azure Blob Storage account. 
+For example: `Z8kZptegFx394vm+PJHGTvdRncaYS+JhLKdj789YNmD+iyGTnG+PV+POiuYNhBg/ACS+LKjd%4FG3FHGN12Nd==`
 
 **Azure Blob Storage Account Name**  
 - Placeholder: Enter the storage account name  

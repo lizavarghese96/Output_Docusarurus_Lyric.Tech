@@ -32,7 +32,7 @@ AI was used in two main ways:
    - correcting `sidebars.js`, `docusaurus.config.js`, and CSS
    - removing default Docusaurus template content and adapting the site for the assignment
 
-This was useful because the assignment required both **content creation** and **documentation-site setup**.
+This was useful because the assignment required both content creation and documentation-site setup.
 
 ---
 
@@ -80,14 +80,14 @@ Write a short release note announcing the new Bar Chart added to the list of cha
 
 **What worked**
 
-- It helped generate concise announcement-style text quickly
-- It surfaced multiple tone options, from formal to slightly more modern
+- It helped generate concise announcement-style text quickly.
+- It surfaced multiple tone options, from formal to slightly more modern.
 
 **What didn’t work**
 
-- Some initial outputs were too plain and lacked energy
-- Other outputs became too generic or sounded like marketing copy
-- A few versions did not reflect the actual assignment context strongly enough
+- Some initial outputs were too plain and lacked energy.
+- Other outputs became too generic or sounded like marketing copy.
+- A few versions did not reflect the actual assignment context strongly enough.
 
 **How the prompt was improved**
 
@@ -109,13 +109,13 @@ Improve the user-facing messages in the provided screenshots. Make the copy clea
 
 **What worked**
 
-- It helped improve clarity and sentence structure
-- It identified wording problems such as grammar issues and inconsistent terminology
-- It suggested more direct action-oriented language
+- It helped improve clarity and sentence structure.
+- It identified wording problems such as grammar issues and inconsistent terminology.
+- It suggested more direct action-oriented language.
 
 **What didn’t work**
 
-- Some versions over-simplified the warning text
+- Some versions over-simplified the warning text.
 - Some suggestions removed useful context from the modal and form copy
 - A few outputs did not preserve example values or field-specific guidance shown in the screenshot
 
@@ -139,15 +139,15 @@ Write a complete step-by-step docs-as-code workflow for documenting a feature ca
 
 **What worked**
 
-- It helped generate a complete lifecycle quickly
-- It covered the expected docs-as-code mechanics well
-- It included realistic steps such as staging review, branching, commit workflow, PR review, validation, and production publishing
+- It helped generate a complete lifecycle quickly.
+- It covered the expected docs-as-code mechanics well.
+- It included realistic steps such as staging review, branching, commit workflow, PR review, validation, and production publishing.
 
 **What didn’t work**
 
-- The first version was too long for a Docusaurus documentation page
-- Some steps were too detailed for the assignment format
-- It needed tightening to feel readable inside the documentation site
+- The first version was too long for a Docusaurus documentation page.
+- Some steps were too detailed for the assignment format.
+- It needed tightening to feel readable inside the documentation site.
 
 **How the prompt was improved**
 
@@ -169,8 +169,8 @@ Help me get started with Docusaurus from scratch to end. I have already created 
 
 **What worked**
 
-- It provided a practical setup path from repository structure to local run
-- It helped troubleshoot environment issues in sequence
+- It provided a practical setup path from repository structure to local run.
+- It helped troubleshoot environment issues in sequence.
 - It supported fixing:
   - missing Node installation
   - PowerShell execution issues
@@ -182,9 +182,9 @@ Help me get started with Docusaurus from scratch to end. I have already created 
 
 **What didn’t work**
 
-- Some steps needed to be adapted to the actual machine setup
-- A few fixes had to be refined after real errors appeared
-- The setup process required repeated adjustment based on local environment behavior
+- Some steps needed to be adapted to the actual machine setup.
+- A few fixes had to be refined after real errors appeared.
+- The setup process required repeated adjustment based on local environment behavior.
 
 **How the prompt was improved**
 
@@ -252,18 +252,4 @@ All AI-generated output was manually reviewed and revised before being added to 
   - `custom.css`
   - homepage content
   - template cleanup
-
----
-
-## Summary
-
-AI tools were helpful in accelerating both the **writing process** and the **Docusaurus setup process**. They supported drafting, rewording, structuring, and troubleshooting. However, the best results came only after prompts were refined based on the actual assignment constraints and the real implementation issues encountered during the work.
-
-The final submission reflects:
-- AI-assisted drafting
-- iterative prompt refinement
-- manual validation against the provided material
-- editorial judgment to improve clarity, tone, and accuracy
-- hands-on correction of setup and configuration issues
-
-This combination of AI support and manual refinement helped produce documentation that is more accurate, more polished, and better aligned with the assignment requirements.
+  
