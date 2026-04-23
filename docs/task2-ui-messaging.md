@@ -9,7 +9,7 @@ title: UI Messaging
 
 ### Recommended update
 
-![alt text](static/img/ModalMessage.png)
+![alt text](../static/img/ModalMessage.png)
 
 **Title:** Delete Table
 
@@ -26,7 +26,7 @@ This table may be used in one or more interfaces for pivot tables or charts. Del
 
 ### Recommended copy
 
-![alt text](static/img/AzureBlob.png)
+![alt text](../static/img/AzureBlob.png)
 
 **Source Name**  
 - Placeholder: Enter a source name  
