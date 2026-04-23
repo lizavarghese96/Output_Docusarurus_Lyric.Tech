@@ -17,10 +17,10 @@ const config = {
   },
 
   url: 'https://lizavarghese96.github.io',
-  baseUrl: '/Output_Docusarurus_Lyric.Tech/',
-
-  organizationName: 'lizavarghese96',
-  projectName: 'Output_Docusarurus_Lyric.Tech',
+baseUrl: '/Output_Docusarurus_Lyric.Tech/',
+organizationName: 'lizavarghese96',
+projectName: 'Output_Docusarurus_Lyric.Tech',
+deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
 
