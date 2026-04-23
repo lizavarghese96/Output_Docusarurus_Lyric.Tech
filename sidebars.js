@@ -8,8 +8,11 @@
 const sidebars = {
   tutorialSidebar: [
     'intro',
+    'project-approach',
+    'task5-review-checklist',
     'task1-bar-chart',
     'task1-release-notes',
+    'task1-release-notes-2',
     'task1-ai-tool-usage',
     'task2-ui-messaging',
     'task3-note-upgrade-video',
