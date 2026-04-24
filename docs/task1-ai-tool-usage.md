@@ -4,252 +4,86 @@ title: AI Tool Usage
 
 # AI Tool Usage
 
-## Tools Used
+AI tools were used to support drafting, structuring, troubleshooting, and refinement during this assignment. The final content was manually reviewed and edited to ensure accuracy, clarity, and alignment with the provided screenshots and video.
 
-I used the following AI tools during this assignment:
+## Tools used
 
-- **ChatGPT** – used for planning the assignment, setting up the Docusaurus framework, structuring documentation, refining wording, and troubleshooting configuration issues
-- **Claude** – used for alternative phrasing, tone refinement, and simplifying technical explanations
-- **Gemini** – used to compare responses, validate alternate wording, and explore different ways to present concise product messaging
+- **ChatGPT** – used for planning, documentation structure, wording refinement, Docusaurus setup, and troubleshooting
+- **Claude** – used for alternate phrasing, tone refinement, and simplifying explanations
+- **Gemini** – used to compare responses and validate alternate wording
 
-I used more than one AI tool intentionally. This helped me compare outputs, identify generic wording, and refine the content instead of relying on a single first draft.
+Using more than one tool helped compare outputs and avoid relying on a single first draft.
 
----
+## How AI helped
 
-## How AI Was Used During the Assignment
+AI was useful in two areas:
 
-AI was used in two main ways:
+- **Content development** – drafting the Bar Chart documentation, release notes, UI messaging, and docs-as-code workflow
+- **Implementation support** – setting up Docusaurus, fixing configuration issues, updating sidebars, and refining the site structure
 
-1. **Content support**
-   - drafting feature documentation
-   - refining release notes
-   - improving UI messaging
-   - structuring the docs-as-code workflow
+## Example prompts and outcomes
 
-2. **Implementation support**
-   - setting up Docusaurus from scratch
-   - fixing environment issues with Node, npm, and PowerShell
-   - correcting `sidebars.js`, `docusaurus.config.js`, and CSS
-   - removing default Docusaurus template content and adapting the site for the assignment
+### Bar Chart documentation
 
-This was useful because the assignment required both content creation and documentation-site setup.
+**Prompt used:**  
+Write user-facing documentation for a Bar Chart feature. Explain what it is, when to use it, how to add it, configure X-axis and Y-axis, and customize it. Do not invent features not shown in the screenshots or video.
 
----
+**What worked:**  
+The prompt helped create a clear structure and flow.
 
-## Example Prompts and Observations
-
-### 1. Bar Chart Feature Documentation
-
-**Prompt used**
-
-Write a user-facing topic for Bar charts. The documentation should be clear, simple, and well-structured. Explain what a bar chart is and when to use it. Document how to add a bar chart, configure basic data such as X-axis and Y-axis, and customize it at a high level. Do not invent features or behaviors not shown in the video or screenshots.
-
-**What worked**
-
-- It helped create an initial structure quickly
-- It gave a usable flow for:
-  - overview
-  - when to use it
-  - add the chart
-  - configure X-axis and Y-axis
-  - customize at a high level
-
-**What didn’t work**
-
-- Early outputs sometimes added assumptions beyond the screenshots
-- Some responses sounded generic and not product-specific
-- Some wording described features more broadly than the assignment allowed
-
-**How the prompt was improved**
-
-The prompt was refined to make the constraint much stricter:
-
-Only use information visible in the provided screenshots and video. Do not invent additional chart behavior, advanced settings, or unsupported workflows.
-
-**Why this refinement mattered**
-
-The assignment explicitly required accuracy based only on the supplied material. This prompt change helped keep the content grounded in evidence.
+**What needed correction:**  
+Some early outputs added assumptions beyond the screenshots. The prompt was refined to restrict the response to only visible product behavior.
 
 ---
 
-### 2. Release Notes
+### Release notes
 
-**Prompt used**
+**Prompt used:**  
+Write a concise release note announcing the new Bar Chart feature. Focus on user value and avoid overly promotional language.
 
-Write a short release note announcing the new Bar Chart added to the list of charts. Focus on user value, keep it concise, and make it sound polished without becoming overly promotional.
+**What worked:**  
+The output helped create a short, user-focused release note.
 
-**What worked**
-
-- It helped generate concise announcement-style text quickly.
-- It surfaced multiple tone options, from formal to slightly more modern.
-
-**What didn’t work**
-
-- Some initial outputs were too plain and lacked energy.
-- Other outputs became too generic or sounded like marketing copy.
-- A few versions did not reflect the actual assignment context strongly enough.
-
-**How the prompt was improved**
-
-The prompt was refined to better control tone:
-
-Write a concise release note for the new Bar Chart in Apps Studio. Focus on practical user value such as comparing values across categories and spotting differences more easily. Keep the tone polished and product-facing, but not promotional.
-
-**Why this refinement mattered**
-
-This helped produce a release note that felt more thoughtful and engaging while still staying appropriate for product documentation.
+**What needed correction:**  
+Some versions were too generic, so the wording was manually refined to sound more product-specific.
 
 ---
 
-### 3. UI Messaging
+### UI messaging
 
-**Prompt used**
+**Prompt used:**  
+Improve the modal and screen copy shown in the screenshots. Make the copy clearer and more concise, but keep important warnings and examples.
 
-Improve the user-facing messages in the provided screenshots. Make the copy clearer, more concise, and more helpful. Keep important warnings intact and align the wording with UX writing best practices.
+**What worked:**  
+The prompt helped improve clarity, structure, and action-oriented wording.
 
-**What worked**
-
-- It helped improve clarity and sentence structure.
-- It identified wording problems such as grammar issues and inconsistent terminology.
-- It suggested more direct action-oriented language.
-
-**What didn’t work**
-
-- Some versions over-simplified the warning text.
-- Some suggestions removed useful context from the modal and form copy
-- A few outputs did not preserve example values or field-specific guidance shown in the screenshot
-
-**How the prompt was improved**
-
-The prompt was refined to preserve important context:
-
-Keep the warning and field-level guidance intact. Improve clarity and conciseness without removing critical information shown in the screenshot. Retain example values where they help users understand what to enter.
-
-**Why this refinement mattered**
-
-This made the UI copy more useful and realistic, especially for the Azure Blob connection screen where the example value and exact field guidance mattered.
+**What needed correction:**  
+Some outputs removed useful context, so the final version was adjusted to preserve warnings and example values.
 
 ---
 
-### 4. Docs-as-Code Workflow
+### Docs-as-code workflow
 
-**Prompt used**
+**Prompt used:**  
+Create an end-to-end docs-as-code workflow for documenting Smart Filters, from Jira intake to production publishing.
 
-Write a complete step-by-step docs-as-code workflow for documenting a feature called Smart Filters from the moment the Jira ticket is received until the documentation is live in production. Include branching, authoring, pull requests, validation, review, and publishing.
+**What worked:**  
+The output covered the full documentation lifecycle.
 
-**What worked**
+**What needed correction:**  
+The first version was too long, so it was shortened into a clear 15–18 step workflow.
 
-- It helped generate a complete lifecycle quickly.
-- It covered the expected docs-as-code mechanics well.
-- It included realistic steps such as staging review, branching, commit workflow, PR review, validation, and production publishing.
+## Manual edits made
 
-**What didn’t work**
+All AI-generated content was manually reviewed. The main edits included:
 
-- The first version was too long for a Docusaurus documentation page.
-- Some steps were too detailed for the assignment format.
-- It needed tightening to feel readable inside the documentation site.
+- removing unsupported assumptions
+- matching wording to the visible UI
+- simplifying long sentences
+- improving structure and flow
+- making content easier to scan
+- correcting Docusaurus setup and configuration issues manually
 
-**How the prompt was improved**
+## Reflection
 
-The prompt was refined to control length and readability:
-
-Shorten the docs-as-code workflow to 15–18 steps without losing the full process. Keep it structured, practical, and suitable for inclusion in a Docusaurus documentation page.
-
-**Why this refinement mattered**
-
-This helped create a version that still demonstrated process maturity while being easier to read in the final submission.
-
----
-
-### 5. Docusaurus Setup and Troubleshooting
-
-**Prompt used**
-
-Help me get started with Docusaurus from scratch to end. I have already created the output repository and removed the docs and src folders. Guide me step by step and help me fix any setup issues.
-
-**What worked**
-
-- It provided a practical setup path from repository structure to local run.
-- It helped troubleshoot environment issues in sequence.
-- It supported fixing:
-  - missing Node installation
-  - PowerShell execution issues
-  - `npm` path problems
-  - Docusaurus scaffold limitations in a non-empty folder
-  - sidebar and config errors
-  - default template cleanup
-  - homepage and CSS updates
-
-**What didn’t work**
-
-- Some steps needed to be adapted to the actual machine setup.
-- A few fixes had to be refined after real errors appeared.
-- The setup process required repeated adjustment based on local environment behavior.
-
-**How the prompt was improved**
-
-As issues appeared, the prompts became more specific, for example:
-- explain this exact terminal error
-- fix this `docusaurus.config.js` problem
-- remove the default blog and tutorial content
-- keep the dark mode toggle but remove unwanted starter elements
-- update the homepage to reflect assignment content instead of default Docusaurus cards
-
-**Why this refinement mattered**
-
-This made the AI support far more useful because the guidance moved from generic setup advice to issue-specific troubleshooting.
-
----
-
-## Challenges Encountered While Using AI
-
-The most useful lesson from this assignment was that AI worked best when the prompt was **specific, constrained, and grounded in the real task**.
-
-### Challenges that came up
-
-- **Generic responses**
-  Some early outputs sounded correct but were too broad or template-like.
-
-- **Assumptions beyond source material**
-  For the feature documentation task, AI sometimes described functionality not clearly visible in the screenshots or video.
-
-- **Too much detail**
-  For the docs-as-code workflow, the first outputs were complete but too long for the final Docusaurus page.
-
-- **Implementation vs. content mismatch**
-  Some setup suggestions needed adjustment once real Docusaurus, Node, PowerShell, and configuration errors appeared.
-
-- **Template leftovers**
-  During Docusaurus setup, default tutorial content, blog content, and homepage elements had to be removed manually even after the framework was working.
-
----
-
-## Manual Edits Made
-
-All AI-generated output was manually reviewed and revised before being added to the final deliverables.
-
-### Key manual edits included
-
-- **Removing unsupported assumptions**  
-  Any content not directly supported by the screenshots, video, or assignment instructions was removed.
-
-- **Aligning with the actual UI**  
-  Labels, steps, and wording were adjusted to match what was visible in the product screenshots.
-
-- **Shortening content for readability**  
-  Long AI-generated sections were edited to fit the Docusaurus page structure and improve scannability.
-
-- **Refining tone**  
-  Some outputs were too generic, too formal, or too promotional. These were rewritten to sound more like polished product documentation.
-
-- **Improving structure**  
-  Content was reorganized into a clearer sequence so that each page felt intentional and easy to navigate.
-
-- **Fixing technical setup manually**  
-  Even when AI suggested the right direction, actual implementation still required manual updates to:
-  - `sidebars.js`
-  - `docusaurus.config.js`
-  - `custom.css`
-  - homepage content
-  - template cleanup
-  
+AI helped accelerate the work, but it was not used as the final source of truth. The most useful results came from specific prompts, clear constraints, and manual review. The final documentation reflects both AI-assisted drafting and human editorial judgment.

@@ -5,33 +5,40 @@ title: Lyric.Tech Assignment
 
 # Lyric.Tech Technical Writing Assignment
 
-This documentation site presents the deliverables created as part of the Lyric.Tech technical writing assignment.
+This documentation site presents the deliverables created for the Lyric.Tech technical writing assignment.
 
-The goal of this work was not only to produce clear, user-facing documentation, but also to demonstrate how documentation is developed, refined, and validated using a structured docs-as-code approach.
+The work focused on two outcomes: creating clear user-facing documentation and demonstrating the process used to plan, write, review, and publish that documentation. The content was developed using a docs-as-code approach and was refined through review, testing, and iteration.
 
-Each section reflects a different aspect of the assignment—from feature documentation and UI messaging to workflow design and AI-assisted writing—while staying grounded in the provided screenshots, video, and constraints.
+The documentation is based on the provided screenshots, video, and assignment instructions.
 
-## What you will find in this site
+## Documentation contents
 
-- **Feature Documentation**  
-  A user-focused guide for the Bar Chart feature, based strictly on observable product behavior
+Use the following topics to review the assignment deliverables in sequence:
 
-- **Release Notes**  
-  A concise, user-value-driven release note, along with an alternative detailed format
+1. [Bar Chart feature documentation](/docs/task1-bar-chart.md)  
+   Explains what a bar chart is, when to use it, and how to add and configure it in Lyric Studio.
 
-- **AI Tool Usage**  
-  A transparent view into how AI tools were used, refined, and validated during the assignment
+2. [Release Note](/docs/task1-release-notes.md)  
+   Provides a concise release note announcing the new Bar Chart option.
 
-- **UI Messaging Improvements**  
-  Revised modal and form copy designed to improve clarity and usability
+3. [Detailed Release Note](/docs/task1-release-notes-2.md)  
+   Presents an alternative structured release note format with more context.
 
-- **Instructional Content**  
-  Supporting material for creating a Note Upgrade instructional video
+4. [AI Tool Usage](/docs/task1-ai-tool-usage.md)  
+   Describes how AI tools were used to support drafting, refinement, and troubleshooting.
 
-- **Docs-as-Code Workflow**  
-  A structured, end-to-end workflow showing how documentation moves from request to production
+5. [UI Messaging Improvements](/docs/task2-ui-messaging.md)  
+   Shows improved modal and screen copy for clearer user guidance.
 
-- **Review and Process Documentation**  
-  A checklist and approach that demonstrate how the content was reviewed and refined
+6. [Note Upgrade Instructional Video](/docs/task3-note-upgrade-video.mdx)  
+   Provides the instructional video link and explains the approach used for scripting and video creation.
 
-This site reflects not just the final output, but the thinking, iteration, and decisions that shaped the documentation.
+7. [Docs-as-Code Workflow](/docs/task4-docs-as-code-workflow.md)  
+   Outlines the end-to-end workflow for documenting a feature from Jira intake to production publishing.
+
+8. [Documentation Review Checklist](/docs/task5-review-checklist.md)  
+   Lists the review checks used to validate clarity, consistency, accuracy, and usability.
+
+## Final note
+
+This site reflects the final deliverables as well as the thinking behind them. It shows how content decisions were made, how AI support was reviewed, and how the documentation was shaped into a structured, reviewable output.
