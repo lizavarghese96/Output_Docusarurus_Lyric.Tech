@@ -34,8 +34,6 @@ The prompt helped create a clear structure and flow.
 **What needed correction:**  
 Some early outputs added assumptions beyond the screenshots. The prompt was refined to restrict the response to only visible product behavior.
 
----
-
 ### Release notes
 
 **Prompt used:**  
@@ -47,8 +45,6 @@ The output helped create a short, user-focused release note.
 **What needed correction:**  
 Some versions were too generic, so the wording was manually refined to sound more product-specific.
 
----
-
 ### UI messaging
 
 **Prompt used:**  
@@ -59,8 +55,6 @@ The prompt helped improve clarity, structure, and action-oriented wording.
 
 **What needed correction:**  
 Some outputs removed useful context, so the final version was adjusted to preserve warnings and example values.
-
----
 
 ### Docs-as-code workflow
 
